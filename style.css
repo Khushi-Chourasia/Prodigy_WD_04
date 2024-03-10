@@ -1,0 +1,110 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 5px;
+    padding: 2px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #262522;
+    color: #fff;
+    padding: 20px 0;
+    text-align: justify;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Education and Experience section styles */
+section {
+    padding: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Projects section styles */
+article {
+    margin-bottom: 20px;
+}
+
+article h3 {
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Background colors for sections */
+#Education {
+    background-color: #f0f0f0; 
+}
+
+#Professional-Experience {
+    background-color: #e0e0e0; 
+}
+
+#contact {
+    background-color: #d0d0d0; 
+}
+
+
+/* Image styles */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
